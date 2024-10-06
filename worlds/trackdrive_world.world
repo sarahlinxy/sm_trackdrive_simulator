@@ -1,0 +1,5712 @@
+<?xml version='1.0' ?>
+<sdf version="1.6">
+  <world name="trackdrive_world">
+    <include>
+      <uri>model://sun</uri>
+      </include>
+    <include>
+      <uri>model://ground_plane</uri>
+      </include>
+    <model name="blue_cone_1">
+      <pose>-2.66 -1.53 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_2">
+      <pose>-4.43 -1.00 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_3">
+      <pose>-5.62 -0.58 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_4">
+      <pose>-7.42 0.34 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_5">
+      <pose>-8.90 1.33 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_6">
+      <pose>-10.45 2.52 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_7">
+      <pose>-11.70 3.05 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_8">
+      <pose>-13.04 3.60 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_9">
+      <pose>-14.47 4.27 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_10">
+      <pose>-15.78 4.81 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_11">
+      <pose>-16.96 5.34 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_12">
+      <pose>-18.23 5.86 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_13">
+      <pose>-19.71 6.51 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_14">
+      <pose>-20.96 7.02 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_15">
+      <pose>-22.20 7.52 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_16">
+      <pose>-23.20 7.95 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_17">
+      <pose>-24.36 8.44 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_18">
+      <pose>-25.35 8.84 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_19">
+      <pose>-26.41 9.27 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_20">
+      <pose>-27.20 9.59 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_21">
+      <pose>-28.48 10.11 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_22">
+      <pose>-29.47 10.49 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_23">
+      <pose>-30.68 11.20 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_24">
+      <pose>-31.76 12.10 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_25">
+      <pose>-32.95 13.20 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_26">
+      <pose>-33.62 14.78 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_27">
+      <pose>-33.84 16.37 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_28">
+      <pose>-33.86 17.91 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_29">
+      <pose>-33.24 19.27 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_30">
+      <pose>-32.64 20.25 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_31">
+      <pose>-31.78 21.62 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_32">
+      <pose>-30.68 22.50 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_33">
+      <pose>-29.49 23.44 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_34">
+      <pose>-28.42 24.28 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_35">
+      <pose>-27.31 25.16 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_36">
+      <pose>-25.88 26.29 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_37">
+      <pose>-24.68 27.24 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_38">
+      <pose>-23.73 27.99 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_39">
+      <pose>-22.46 28.98 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_40">
+      <pose>-21.32 29.70 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_41">
+      <pose>-20.01 29.99 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_42">
+      <pose>-17.94 30.39 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_43">
+      <pose>-16.19 30.75 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_44">
+      <pose>-15.33 30.60 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_45">
+      <pose>-14.48 30.35 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_46">
+      <pose>-13.07 29.87 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_47">
+      <pose>-11.67 29.41 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_48">
+      <pose>-10.67 29.09 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_49">
+      <pose>-9.30 28.65 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_50">
+      <pose>-8.08 28.29 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_51">
+      <pose>-6.76 27.94 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_52">
+      <pose>-5.56 27.63 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_53">
+      <pose>-4.30 27.31 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_54">
+      <pose>-2.83 27.42 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_55">
+      <pose>-1.27 28.21 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_56">
+      <pose>-0.11 28.76 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_57">
+      <pose>1.17 29.37 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_58">
+      <pose>2.55 30.00 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_59">
+      <pose>4.00 30.63 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_60">
+      <pose>5.31 31.23 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_61">
+      <pose>6.52 31.78 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_62">
+      <pose>7.56 32.24 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_63">
+      <pose>9.04 32.57 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_64">
+      <pose>10.94 32.71 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_65">
+      <pose>12.79 32.83 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_66">
+      <pose>14.33 32.43 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_67">
+      <pose>15.63 32.04 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_68">
+      <pose>17.48 31.45 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_69">
+      <pose>18.76 31.05 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_70">
+      <pose>19.57 30.78 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_71">
+      <pose>21.62 30.12 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_72">
+      <pose>23.10 29.67 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_73">
+      <pose>24.05 29.34 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_74">
+      <pose>25.40 28.71 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_75">
+      <pose>26.26 28.21 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_76">
+      <pose>27.53 27.13 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_77">
+      <pose>29.00 25.94 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_78">
+      <pose>30.26 24.86 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_79">
+      <pose>31.36 23.92 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_80">
+      <pose>32.76 22.73 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_81">
+      <pose>33.99 21.68 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_82">
+      <pose>35.24 20.62 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_83">
+      <pose>36.32 19.51 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_84">
+      <pose>36.96 18.43 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_85">
+      <pose>37.63 17.20 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_86">
+      <pose>38.05 15.82 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_87">
+      <pose>37.86 14.45 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_88">
+      <pose>37.58 12.99 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_89">
+      <pose>36.92 11.35 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_90">
+      <pose>35.69 10.35 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_91">
+      <pose>34.58 9.47 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_92">
+      <pose>33.36 8.87 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_93">
+      <pose>32.17 8.49 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_94">
+      <pose>30.99 8.14 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_95">
+      <pose>29.69 7.74 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_96">
+      <pose>28.48 7.36 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_97">
+      <pose>27.11 6.91 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_98">
+      <pose>25.23 6.33 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_99">
+      <pose>23.85 6.24 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_100">
+      <pose>22.10 5.30 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_101">
+      <pose>20.90 4.91 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_102">
+      <pose>19.62 4.47 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_103">
+      <pose>18.05 3.96 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_104">
+      <pose>17.29 3.25 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_105">
+      <pose>16.03 2.00 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_106">
+      <pose>14.73 1.12 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_107">
+      <pose>13.51 0.31 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_108">
+      <pose>12.32 -0.21 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_109">
+      <pose>10.55 -0.74 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_110">
+      <pose>9.19 -1.06 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_111">
+      <pose>7.65 -1.45 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_112">
+      <pose>5.77 -1.90 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_113">
+      <pose>4.47 -2.15 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+    <model name="blue_cone_114">
+      <pose>3.22 -2.39 0.1 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            </material>
+          </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <scale>3 3 3</scale>
+              </mesh>
+            </geometry>
+          </collision>
+        </link>
+      </model>
+ 
+  <model name="yellow_cone_1">
+    <pose>-1.56 2.45 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_2">
+    <pose>-2.87 2.9 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_3">
+    <pose>-3.75 3.36 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_4">
+    <pose>-5.05 4.26 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_5">
+    <pose>-6.07 5.25 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_6">
+    <pose>-7.21 5.80 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_7">
+    <pose>-8.21 6.13 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_8">
+    <pose>-9.31 6.93 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_9">
+    <pose>-10.51 7.33 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_10">
+    <pose>-11.65 7.63 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_11">
+    <pose>-12.69 7.95 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_12">
+    <pose>-13.84 8.26 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_13">
+    <pose>-15.2 8.67 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_14">
+    <pose>-16.36 9.09 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_15">
+    <pose>-17.53 9.42 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_16">
+    <pose>-18.48 9.81 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_17">
+    <pose>-19.6 10.26 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_18">
+    <pose>-20.55 10.64 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_19">
+    <pose>-21.58 11.05 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_20">
+    <pose>-22.35 11.45 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_21">
+    <pose>-23.6 11.88 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_22">
+    <pose>-24.57 12.24 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_23">
+    <pose>-25.75 12.44 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_24">
+    <pose>-26.81 12.78 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_25">
+    <pose>-27.98 13.7 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_26">
+    <pose>-28.63 15.05 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_27">
+    <pose>-28.84 16.42 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_28">
+    <pose>-28.86 17.74 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_29">
+    <pose>-28.25 18.9 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_30">
+    <pose>-27.67 19.74 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_31">
+    <pose>-26.83 20.89 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_32">
+    <pose>-25.76 21.62 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_33">
+    <pose>-24.6 22.38 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_34">
+    <pose>-23.57 23.06 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_35">
+    <pose>-22.51 23.76 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_36">
+    <pose>-21.16 24.65 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_37">
+    <pose>-20.04 25.38 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_38">
+    <pose>-19.16 25.96 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_39">
+    <pose>-18.0 26.71 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_40">
+    <pose>-16.97 27.24 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_41">
+    <pose>-15.75 27.38 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_42">
+    <pose>-13.84 27.08 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_43">
+    <pose>-12.26 26.66 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_44">
+    <pose>-11.46 26.43 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_45">
+    <pose>-10.66 26.12 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_46">
+    <pose>-9.34 25.54 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_47">
+    <pose>-8.05 24.96 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_48">
+    <pose>-7.14 24.55 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_49">
+    <pose>-5.92 23.96 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_50">
+    <pose>-4.86 23.46 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_51">
+    <pose>-3.76 22.94 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_52">
+    <pose>-2.81 22.46 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_53">
+    <pose>-1.85 22.43 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_54">
+    <pose>-0.9 22.81 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_55">
+    <pose>-0.04 23.36 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_56">
+    <pose>0.61 23.81 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_57">
+    <pose>1.36 24.37 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_58">
+    <pose>2.21 25.01 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_59">
+    <pose>3.17 25.7 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_60">
+    <pose>4.09 26.38 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_61">
+    <pose>4.98 27.02 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_62">
+    <pose>5.78 27.57 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_63">
+    <pose>6.93 28.04 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_64">
+    <pose>8.43 28.39 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_65">
+    <pose>9.95 28.72 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_66">
+    <pose>11.19 28.54 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_67">
+    <pose>12.26 28.35 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_68">
+    <pose>13.82 28.04 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_69">
+    <pose>14.93 27.84 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_70">
+    <pose>15.64 27.69 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_71">
+    <pose>17.47 27.33 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_72">
+    <pose>18.82 27.08 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_73">
+    <pose>19.69 26.88 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_74">
+    <pose>20.94 26.46 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_75">
+    <pose>21.73 26.09 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_76">
+    <pose>22.89 25.26 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_77">
+    <pose>24.26 24.34 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_78">
+    <pose>25.45 23.49 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_79">
+    <pose>26.5 22.74 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_80">
+    <pose>27.85 21.78 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_81">
+    <pose>29.05 20.92 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_82">
+    <pose>30.27 20.04 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_83">
+    <pose>31.34 19.11 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_84">
+    <pose>31.97 18.19 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_85">
+    <pose>32.63 17.13 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_86">
+    <pose>33.05 15.94 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_87">
+    <pose>32.87 14.76 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_88">
+    <pose>32.61 13.51 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_89">
+    <pose>31.98 12.1 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_90">
+    <pose>30.78 11.27 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_91">
+    <pose>29.7 10.54 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_92">
+    <pose>28.51 10.07 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_93">
+    <pose>27.34 9.79 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_94">
+    <pose>26.19 9.54 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_95">
+    <pose>24.93 9.26 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_96">
+    <pose>23.76 9.01 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_97">
+    <pose>22.44 8.71 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_98">
+    <pose>20.65 8.34 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_99">
+    <pose>19.3 8.39 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_100">
+    <pose>17.73 7.74 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_101">
+    <pose>16.64 7.52 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_102">
+    <pose>15.49 7.28 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_103">
+    <pose>14.1 7.03 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_104">
+    <pose>13.5 6.51 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_105">
+    <pose>12.53 5.58 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_106">
+    <pose>11.52 4.95 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_107">
+    <pose>10.58 4.36 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_108">
+    <pose>9.65 4.02 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_109">
+    <pose>8.28 3.71 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_110">
+    <pose>7.24 3.54 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_111">
+    <pose>6.08 3.3 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_112">
+    <pose>4.69 2.98 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_113">
+    <pose>3.73 2.79 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  <model name="yellow_cone_114">
+    <pose>2.81 2.59 0.1 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        <material>
+          <ambient>1 1 0 1</ambient>
+          <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+   </world>
+  </sdf>

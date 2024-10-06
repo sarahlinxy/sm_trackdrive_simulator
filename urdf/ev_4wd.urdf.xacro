@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<robot name="ev_4wd" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Base link (chassis) -->
+  <link name="chassis">
+    <inertial>
+      <origin xyz="0 0 0.1"/>
+      <mass value="250.0"/> <!-- Adjust the mass of the chassis as needed -->
+      <inertia ixx="10.0" ixy="0.0" ixz="0.0" iyy="20.0" iyz="0.0" izz="30.0"/> <!-- Inertial properties -->
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="1.5 0.6 0.2"/> <!-- Chassis dimensions: length, width, height -->
+      </geometry>
+      <material name="green">
+        <color rgba="0.0 1.0 0.0 1.0"/> <!-- Chassis color: green -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="1.5 0.6 0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Define the rear left wheel -->
+  <link name="rear_left_wheel">
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="10.0"/> <!-- Mass of the rear left wheel -->
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.02"/> <!-- Inertial properties for the wheel -->
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/> <!-- Cylinder radius and length for the rear left wheel -->
+      </geometry>
+      <material name="black"/> <!-- Wheel color -->
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Define the rear right wheel -->
+  <link name="rear_right_wheel">
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="10.0"/> <!-- Mass of the rear right wheel -->
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.02"/> <!-- Inertial properties for the wheel -->
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/> <!-- Cylinder radius and length for the rear right wheel -->
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Define the front left wheel -->
+  <link name="front_left_wheel">
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="10.0"/> <!-- Mass of the front left wheel -->
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.02"/> <!-- Inertial properties for the wheel -->
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/> <!-- Cylinder radius and length for the front left wheel -->
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Define the front right wheel -->
+  <link name="front_right_wheel">
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="10.0"/> <!-- Mass of the front right wheel -->
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.02"/> <!-- Inertial properties for the wheel -->
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/> <!-- Cylinder radius and length for the front right wheel -->
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.15" length="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Rear left wheel joint -->
+  <joint name="rear_left_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="rear_left_wheel"/>
+    <origin xyz="-0.7 0.3 0.05" rpy="0 0 0"/> <!-- Position of the rear left wheel relative to the chassis -->
+    <axis xyz="0 1 0"/> <!-- Axis of rotation for the wheel -->
+  </joint>
+
+  <!-- Rear right wheel joint -->
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="rear_right_wheel"/>
+    <origin xyz="-0.7 -0.3 0.05" rpy="0 0 0"/> <!-- Position of the rear right wheel relative to the chassis -->
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Front left wheel joint -->
+  <joint name="front_left_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="front_left_wheel"/>
+    <origin xyz="0.7 0.3 0.05" rpy="0 0 0"/> <!-- Position of the front left wheel relative to the chassis -->
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Front right wheel joint -->
+  <joint name="front_right_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="front_right_wheel"/>
+    <origin xyz="0.7 -0.3 0.05" rpy="0 0 0"/> <!-- Position of the front right wheel relative to the chassis -->
+    <axis xyz="0 1 0"/>
+  </joint>
+
+</robot>
+

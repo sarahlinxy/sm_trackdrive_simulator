@@ -1,0 +1,13 @@
+<launch>
+  <!-- Load empty world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find sm_trackdrive_simulator)/worlds/empty_world.world"/>
+  </include>
+
+  <!-- Load EV 4WD URDF model -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find sm_trackdrive_simulator)/urdf/ev_4wd.urdf.xacro'"/>
+  
+  <!-- Spawn the EV 4WD in Gazebo -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model ev_4wd" />
+</launch>
+
