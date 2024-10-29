@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="camera_model">
+    <static>true</static>
+    <link name="camera_link">
+      <pose>0 0 1 0 0 0</pose> <!-- Camera position (x, y, z, roll, pitch, yaw) -->
+      <sensor name="camera_sensor" type="camera">
+        <pose>0 0 0 0 0 0</pose> <!-- Sensor relative pose -->
+        <camera>
+          <horizontal_fov>1.047</horizontal_fov> <!-- Field of view in radians -->
+          <image>
+            <width>640</width>  <!-- Image width -->
+            <height>480</height> <!-- Image height -->
+            <format>R8G8B8</format> <!-- Image format -->
+          </image>
+          <clip>
+            <near>0.1</near>  <!-- Near clipping distance -->
+            <far>100</far>    <!-- Far clipping distance -->
+          </clip>
+          <noise>
+            <type>gaussian</type>  <!-- Noise type -->
+            <mean>0.0</mean>  <!-- Mean of noise -->
+            <stddev>0.007</stddev>  <!-- Standard deviation of noise -->
+          </noise>
+        </camera>
+        <update_rate>30</update_rate> <!-- Update rate of the camera (in Hz) -->
+        <visualize>true</visualize> <!-- Whether to visualize the camera in Gazebo -->
+      </sensor>
+    </link>
+  </model>
+</sdf>
+
+
