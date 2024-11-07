@@ -1,0 +1,47 @@
+<robot name="vehicle">
+    <link name="base_link">
+        <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+        </inertial>
+    </link>
+
+    <link name="imu_link">
+        <inertial>
+            <mass value="0.01"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+        </inertial>
+        <!-- Add visual and collision geometries here -->
+    </link>
+
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </joint>
+
+    <gazebo reference="imu_link">
+        <sensor type="imu" name="imu_sensor">
+            <update_rate>100.0</update_rate>
+            <always_on>true</always_on>
+            <visualize>true</visualize>
+            <imu>
+                <topic>imu/data</topic>
+                <angular_velocity>
+                    <noise type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>0.01</stddev>
+                    </noise>
+                </angular_velocity>
+                <linear_acceleration>
+                    <noise type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>0.1</stddev>
+                    </noise>
+                </linear_acceleration>
+            </imu>
+        </sensor>
+    </gazebo>
+</robot>

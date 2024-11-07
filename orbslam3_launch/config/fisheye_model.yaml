@@ -1,0 +1,94 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# System config
+#--------------------------------------------------------------------------------------------
+
+File.version: "1.0"
+
+Camera.type: "Kannala-Brandt"  
+
+# Camera calibration and distortion parameters 
+Camera1.fx: 449.45850426
+Camera1.fy: 450.22385246
+Camera1.cx: 338.26893022
+Camera1.cy: 237.70835852
+
+# Fisheye distortion coefficients for Camera1 (k1, k2, k3, k4)
+Camera1.k1: -3.81501937
+Camera1.k2: 3.49434921
+Camera1.k3: 0.380358361
+Camera1.k4: -3.42601876
+
+Camera2.fx: 438.7104041
+Camera2.fy: 439.84366907
+Camera2.cx: 323.05772073
+Camera2.cy: 275.05817008
+
+# Fisheye distortion coefficients for Camera2 (k1, k2, k3, k4)
+Camera2.k1: 38.3958145
+Camera2.k2: 238.071090
+Camera2.k3: -21.9100188
+Camera2.k4: 36.5754417
+
+Camera.width: 752
+Camera.height: 480
+
+# Camera frames per second
+Camera.fps: 20
+
+# Color order of the images (0: BGR, 1: RGB.)
+Camera.RGB: 1
+
+# Baseline thresholds
+Stereo.ThDepth: 60.0
+Stereo.T_c1_c2: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [0.96667383, 0.01833552, 0.25535372, 0.01134369,
+         -0.01434972, 0.99974453, -0.01746338, -0.00519929,
+         -0.25560869, 0.01321714, 0.96668997, 0.92554869,
+         0, 0, 0, 1.0]
+
+# Transformation from camera 0 to body-frame
+IMU.T_b_c1: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [0.0148655429818, -0.999880929698, 0.00414029679422, -0.0216401454975,
+         0.999557249008, 0.0149672133247, 0.025715529948, -0.064676986768,
+         -0.0257744366974, 0.00375618835797, 0.999660727178, 0.00981073058949,
+         0.0, 0.0, 0.0, 1.0]
+
+# IMU noise
+IMU.NoiseGyro: 1.7e-04
+IMU.NoiseAcc: 2.0e-03
+IMU.GyroWalk: 1.9393e-05
+IMU.AccWalk: 3.e-03
+IMU.Frequency: 200.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+ORBextractor.nFeatures: 3000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0
+Viewer.imageViewScale: 1.0

@@ -1,0 +1,56 @@
+<robot name="vehicle">
+    <link name="base_link">
+        <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+        </inertial>
+    </link>
+
+    <link name="lidar_link">
+        <inertial>
+            <mass value="0.01"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+        </inertial>
+        <!-- Add visual and collision geometries here -->
+    </link>
+
+    <joint name="lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+        <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    </joint>
+
+    <gazebo reference="lidar_link">
+        <sensor type="gpu_ray" name="lidar_sensor">
+            <update_rate>20.0</update_rate>
+            <always_on>true</always_on>
+            <visualize>true</visualize>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>1080</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-1.5708</min_angle> <!-- -90 degrees -->
+                        <max_angle>1.5708</max_angle>  <!-- 90 degrees -->
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.1</min>
+                    <max>10.0</max>
+                    <resolution>0.01</resolution>
+                </range>
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.01</stddev>
+                </noise>
+            </ray>
+            <plugin name="gazebo_ros_laser" filename="libgazebo_ros_laser.so">
+                <topicName>lidar/scan</topicName>
+                <frameName>lidar_link</frameName>
+            </plugin>
+        </sensor>
+    </gazebo>
+</robot>
