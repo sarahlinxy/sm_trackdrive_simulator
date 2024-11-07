@@ -8,11 +8,11 @@
   <arg name="enable_imu_ori" default="false" />
 
   <arg name="points_topic" default="/lidar_points" />
-  <!-- what should the map frame be called -->
+  <!-- mapframe name -->
   <arg name="map_frame_id" default="map" />
-  <!-- what should the base link frame be called -->
+  <!-- base link name -->
   <arg name="base_link_frame_id" default="base_link" />
-  <!-- what should the odom frame be called -->
+  <!-- odom frame name -->
   <arg name="lidar_odom_frame_id" default="odom" />
 
   <arg name="published_odom_topic" default="/odom" />
