@@ -1,4 +1,4 @@
-# ORB-SLAM3 Setup in ROS Catkin Workspace (Ubuntu 20.04 & ROS Noetic)
+# ORB-SLAM3 Set-Up in ROS Catkin Workspace (Ubuntu 20.04 & ROS Noetic)
 
 This guide provides instructions for setting up the ORB-SLAM3 package in a ROS workspace. Note that this guide is specifically written for the Ubuntu 20.04 ROS Noetic distribution. 
 
